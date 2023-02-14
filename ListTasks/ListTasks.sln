@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveNum", "ListTasks\Remo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveNonPositiveNums", "RemoveNonPositiveNums\RemoveNonPositiveNums.csproj", "{34165C11-285D-4F53-8BFA-337E146727EF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeList", "MergeList\MergeList.csproj", "{12D335A9-3273-4401-BCD2-D900FD0E3230}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{34165C11-285D-4F53-8BFA-337E146727EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34165C11-285D-4F53-8BFA-337E146727EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34165C11-285D-4F53-8BFA-337E146727EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12D335A9-3273-4401-BCD2-D900FD0E3230}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12D335A9-3273-4401-BCD2-D900FD0E3230}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12D335A9-3273-4401-BCD2-D900FD0E3230}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12D335A9-3273-4401-BCD2-D900FD0E3230}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
