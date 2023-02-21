@@ -19,7 +19,9 @@ namespace ListManipulatior
                 }
                 switch (command)
                 {
-                    case "add":
+                    case "add":var index = int.Parse(input[1]);
+                        var element = int.Parse(input[2]);
+                        nums.Insert(index, element);
                         break;
                     case "addMany":
                         break;
@@ -34,7 +36,9 @@ namespace ListManipulatior
                     default:
                         break;
                 }
+
             }
+            Console.WriteLine(string.Join(" " , nums));
         }
     }
 }
